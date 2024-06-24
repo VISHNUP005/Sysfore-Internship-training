@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./CSS/style1.css" type="text/css">
+
+
+<body>
+    <header>
+<div class="topheader">
+
+    <img src="/CSS/images/main-logo.svg">
+
+
+  
+    <div class="links2">
+        <p class="dullpara">DASHBOARD</p>
+        <p>PROFILE</p>
+    </div>
+
+    <div class="userinfo">
+        <img src="/CSS/images/user-icon.svg">
+<div class="userinfo1">
+        <h3>Vishnu</h3><p>Hello welcome</p></div>
+    </div>
+</div>
+<div class="navbar">
+<div class="navbar-inner">
+<h3>PROFILE INFO</h3>
+<p>Fill your details below</p>
+
+
+</div>
+</div>
+    </header>
+  
+
+    <div class="container2">
+        <form id="formid"  action="display_page.html">
+        <div class="card123">
+        <div class="fields">
+            <label>First Name</label>
+            <input  type="text" name="Firstname" >
+        </div>
+        <div class="fields">
+            <label>Last Name</label>
+            <input type="text" name="lastname">
+        </div>
+        <div class="fields">
+            <label>Middle Name</label>
+            <input type="text" name="middle">
+        </div>
+        <div class="fields">
+            <label>Date of Birth</label>
+            <input  name="dateofbirth" type="text" >
+        </div>
+    </div>
+    <div class="card12">
+        <div class="fields ">
+            <div class="emailfield">
+
+            
+            <label>Email</label>
+            <input type="text" name="email">
+        </div>
+        </div>
+        <div class="fields">
+            <div class="phonefield">
+            <label>Phone no</label>
+            <input type="text" name="phone">
+        </div>
+        </div>
+        <div class="fields">
+            <div class="selectitems">
+            <label>Gender</label>
+            <Select name="gender">
+                <option disabled selected>Select Gender</option><option>Male</option>
+            <option>Female</option></Select>
+        </div>
+        </div>
+        <div class="fields">
+            <div class="selectitems2">
+            <label>Blood group</label>
+            <Select name="blood_grp">
+                <option disabled selected>Select Blood group</option>
+                <option value="A+ POSITIVE">A+ </option>
+                <option value="A- NEGETIVE">A- </option>
+                <option value="B+ POSITIVE">B+ </option>
+                <option value="B- NEGETIVE">B-</option>
+                <option value="O+ POSITIVE">O+</option>
+                <option value="O NEGETIVE">O-</option>
+            </Select>
+            </div>
+        </div>
+    </div>
+    <div class="card13">
+        <div class="fields">
+            <label>Comments</label>
+            <textarea rows="6"cols="151" id="comments" name="comments"></textarea>
+        </div>
+        
+    </div>
+    <div class="card14">
+        <div class="fields12">
+            <input type="button" value="Cancel" onclick="reset()" class="save-btn second">
+            
+                <button type="submit"class="save-btn first" formaction="display_page.html">Save</button>
+                
+             
+        </div>
+            
+        
+    </div>
+</form>
+    </div>
+   
+    
+    <footer>
+<div class="footer-text">
+    © 2004 -2024Sysfore Technologies Pvt. Ltd. All Rights Reserved
+</div>
+    </footer>
+    <script src="/JS/script2.js"></script>
+</body>
+</html>

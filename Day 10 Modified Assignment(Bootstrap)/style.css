@@ -1,0 +1,22 @@
+.ban-image{
+    background-image: url('Banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.listitems li{
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+}
+.pic{
+    background-color: green;
+}
+.card-imgs{
+    background-color: whitesmoke;
+}
+.footerc1{
+    background-color: #2C304D;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.422);
+}

@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    background-image: url(back2.webp);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgb(38, 38, 145);
+}
+.topheader{
+    background-color: rgb(19, 19, 171);
+    display: flex;
+    align-items: center;
+    justify-content:
+     space-between;
+     padding-left: 10px;
+     padding-right: 10px;
+     height: 50px;
+}
+.topheader img{
+    width: 150px;
+    height: 100px;
+    margin: 0px;
+}
+.topheader h3{
+color: aliceblue;
+margin: 0px;
+padding: 0px;
+font-size: x-large;
+
+}
+.topheader p{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    
+}
+.navbar{
+    width: 100%;
+   
+    
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    padding: 10px;
+    color: white;
+
+}
+a{
+    color: aliceblue;
+    opacity: 0.7;
+    text-decoration: none;
+}
+ul :hover{
+    color: rgb(151, 230, 24);
+}
+
+
+
+
+
+
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;   
+    padding: 100px;
+   
+    
+   }
+   .card{
+       background-image: url(formpic.jpg);
+       background-size: cover;
+       width: 380px;
+       height: auto;
+       padding: 30px;
+       position: absolute;
+       top: 95px;
+       left:450px;
+       border-radius: 50px;
+       border: 2px solid yellow;
+       
+   }
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+   .card .l1{
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: cursive;
+    
+    
+   
+    
+    
+   }
+
+   .form-field{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.form-field label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-field input{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+     
+}
+.gender{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.male{
+    margin-left: -80px;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    
+} 
+
+
+.gender label{
+    margin-right: 90px;
+}
+
+.checkbox_terms{
+    margin: 0% !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 3px !important;
+    
+}
+.terms_para{
+    margin: 0%;
+    margin-left: 10px;
+}
+
+.terms_and_conditions{
+    display: flex;
+}
+.btn1{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(35, 234, 17);
+    border: none;
+    color: whitesmoke;
+
+}
+
+.btn2{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(222, 123, 123);
+    border: none;
+}
+.butons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center !important;
+    gap: 20px;
+   
+}
+
+.butons :hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#card2{
+    position: absolute;
+    top: 95px;
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    
+}
+
+table tr,td{
+    width: 200px;
+    border-bottom: 1px solid black;
+}
+table{
+    padding: 10px;
+}
+
+
+
+

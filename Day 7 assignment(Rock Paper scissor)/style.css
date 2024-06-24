@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container1{
+    
+    background-color:white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   
+}
+
+.players{
+    
+    padding: 12px 70px;
+}
+.players p{
+    padding: 5px 0px;
+    font-size: xx-large;
+}
+
+.options{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+   
+    
+    
+}
+.stonebtn{
+height: 100px;
+width: 90px;
+border: 1px solid grey;
+padding: 10px;
+border-radius: 10px;
+
+}
+.o1 img{
+width:100%;
+margin: 0;
+height: 60px;
+
+}
+.resetbtn{
+    height: 100px;
+    width: 90px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+

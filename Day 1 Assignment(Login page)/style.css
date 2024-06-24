@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background-color: rgb(41, 41, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    
+ display: flex;
+ align-items: center;
+ justify-content:center;
+ height: 100vh;
+
+ 
+}
+.card{
+    background-color: white;
+    width: 380px;
+    height: auto;
+    padding: 30px;
+    
+}
+.heading h3{
+    margin: 0 0 0 0px;
+    padding:0px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.heading p{
+    margin: 0px;
+    padding:0px;
+    padding:0px;
+    opacity: 0.5;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+
+
+.form-field{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.form-field label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-field button{
+    
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    background-color: rgb(56, 193, 56);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.form-field button:hover{
+    background-color: aqua;
+    color: black;
+}
+.form-field input{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+     
+}
+@media screen and (max-width: 600px) {
+    .container{
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        height: 100vh;
+        width: 300px;
+        
+       }
+  }
+

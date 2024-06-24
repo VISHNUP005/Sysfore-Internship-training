@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <div class="topheader">
+        <img src="main-logo.svg">
+        <div class="userinfo">
+            <h3>User</h3><p>Hello welcome</p>
+        
+        </div>
+        </div>
+        <div class="navbar">
+        
+        <ul>
+            <li><a href="#" onclick="show()" >
+                REGISTER</a>
+            </li>    
+            <li><a href="#" onclick="hide()" >
+                USERS</a>
+            </li>        
+            </ul>
+        </div>
+    </header>
+
+<div class="container" id="container">
+
+    <div class="card2" id="card2">
+       
+    </div>
+    <div class="card" id="card1">
+        <center><img src="user-icon.svg"></center>
+
+        <center><label class="l1">Register</label></center>
+
+        <div class="form-field">
+            <form id="form-field" >
+            <label>Firstname</label>
+            <input type="text" placeholder="Your firstname" id="firstn">
+            <label>Lastname</label>
+            <input type="text" placeholder="our last name" id="lastn">
+            <label>D.O.B</label>
+            <input type="date" id="daten">
+            <label>Phone</label>
+            <input type="tel" placeholder="mobile" id="mobilen">
+           
+            
+                <label>Email</label>
+            <input type="email" placeholder="Username@gmail.com" id="emailn">
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" id="passwordn">
+            <div class="gender">
+                
+                <div><label>Gender</label></div>
+                <input type="radio"name="genders" value="Male" id="gendern">
+            <label >Male</label>
+            <input type="radio" name="genders" value="Female" id="gendern">
+            <label >Female</label>
+            </div>
+            <div class="terms_and_conditions">
+                <input type="checkbox" id="chbox" class="checkbox_terms">
+            <p class="terms_para">I agree to terms and condition</p>
+            
+            
+
+            </div>
+            <div class="butons">
+                <button type="button" class="btn1" onclick="onsavebutton()">Save
+                </button>
+                <button type="button" class="btn2" onclick="formclear()">Cancel
+                </button>
+                
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="script.js" type="text/javascript">
+</script>
+</html>
